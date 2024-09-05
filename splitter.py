@@ -7,7 +7,7 @@ section_title_pattern = re.compile(r'第[0-9零一二三四五六七八九十百
 current_volume = ''
 counter = 0
 # Load and read a txt file from .data/input/剑来.txt
-with open('.data/input/剑来.txt', 'r', encoding='utf-8') as input_file:
+with open('.data/input/2196.txt', 'r', encoding='utf-8') as input_file:
     for line in input_file:
         line_text = line.strip()
         if (volume_section_title_pattern.match(line_text)):
